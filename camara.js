@@ -7,7 +7,7 @@
 	                            navigator.mozGetUserMedia || 
 	                            navigator.msGetUserMedia;
 
-	navigator.getMedia({ 
+	navigator.getUserMedia({ 
 		video: true, 
 		audio: false 
 		},
